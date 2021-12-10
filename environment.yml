@@ -1,0 +1,14 @@
+name: base
+channels:
+  - conda-forge
+dependencies:
+  - matplotlib
+  - numpy 
+  - scipy
+  - sympy
+  - ipython
+  - pyvista
+  - pythreejs
+  - pip
+  - pip:
+    - gmsh
